@@ -1,3 +1,42 @@
 /*
  * Estilos de tu proyecto
  */
+
+a {
+  color:white;
+  text-decoration: none;
+  padding:5px;
+}
+
+a:hover {
+  background-color: #0DB1FF;
+}
+
+.nav-menu {
+  padding-top: 10px;
+  height: 40px;
+  background-color: #33407A;
+}
+
+.name-boostrap {
+  color:white;
+}
+
+.text {
+  font-family: 'Hind Guntur', sans-serif;
+}
+
+.text-caps {
+  font-family: 'Hind Guntur', sans-serif;
+  font-weight: 700;
+}
+/*profile´s styles*/
+.profile-back {
+  background-color: #0DB1FF;
+  padding-top: 80px;
+}
+.text-emphasize {
+  font-family: 'Hind Guntur', sans-serif;
+  color:white;
+  font-size: 20px;
+}
