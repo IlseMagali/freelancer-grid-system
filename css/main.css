@@ -38,5 +38,13 @@ a:hover {
 .text-emphasize {
   font-family: 'Hind Guntur', sans-serif;
   color:white;
-  font-size: 20px;
+  font-size: 70px;
+}
+.content-center {
+  text-align: center;
+}
+
+.line {
+  height: 10px;
+  background-color: white;
 }
