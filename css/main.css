@@ -1,6 +1,8 @@
 /*
  * Estilos de tu proyecto
  */
+ @import url('https://fonts.googleapis.com/css?family=Montserrat');
+
 * {
   box-sizing: border-box;
 }
@@ -27,18 +29,20 @@ a:hover {
 
 .name-boostrap {
   color:white;
-  font-family: 'Hind Guntur', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .text {
-  font-family: 'Hind Guntur', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color:white;
 }
 
 .text-caps {
-  font-family: 'Hind Guntur', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   margin:0 auto;
+  color: white;
+  font-weight: bold;
 }
 
 .profile-back {
@@ -48,7 +52,7 @@ a:hover {
 }
 
 .text-emphasize {
-  font-family: 'Hind Guntur', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color:white;
   font-size: 40px;
   margin:0 auto;
@@ -66,7 +70,7 @@ a:hover {
 }
 
 .text-portfolio {
-  font-family: 'Hind Guntur', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color:black;
   font-size: 40px;
   font-weight: bold;
@@ -75,7 +79,7 @@ a:hover {
 }
 /*section about styles*/
 .text-about {
-  font-family: 'Hind Guntur', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color:white;
   font-size: 40px;
   font-weight: bold;
@@ -92,7 +96,7 @@ a:hover {
   padding-top: 80px;
 }
 .text-contact {
-  font-family: 'Hind Guntur', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color:#0DB1FF;
   font-size: 40px;
   font-weight: bold;
@@ -117,7 +121,7 @@ a:hover {
   border-left: none;
   border-right: none;
   border-top: none;
-  font-family: 'Hind Guntur', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 20px;
 }
 
@@ -127,4 +131,18 @@ a:hover {
   border-left: none;
   border-right: none;
   border-top: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+}
+
+.contact-rest-back {
+  padding-top: 30px;
+  background-color: #2c3e50;
+}
+
+footer {
+  padding-top:40px;
+  padding-bottom: 20px;
+  background-color: #2c3e50;
+  color:white;
 }
