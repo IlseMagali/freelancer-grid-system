@@ -1,6 +1,13 @@
 /*
  * Estilos de tu proyecto
  */
+* {
+  box-sizing: border-box;
+}
+
+ header {
+   position:fixed;
+ }
 
 a {
   color:white;
@@ -15,36 +22,51 @@ a:hover {
 .nav-menu {
   padding-top: 10px;
   height: 40px;
-  background-color: #33407A;
+  background-color: #2c3e50;
 }
 
 .name-boostrap {
   color:white;
+  font-family: 'Hind Guntur', sans-serif;
 }
 
 .text {
   font-family: 'Hind Guntur', sans-serif;
+  color:white;
 }
 
 .text-caps {
   font-family: 'Hind Guntur', sans-serif;
   font-weight: 700;
+  margin:0 auto;
 }
-/*profile´s styles*/
+
 .profile-back {
   background-color: #0DB1FF;
   padding-top: 80px;
+  padding-bottom: 20px;
 }
+
 .text-emphasize {
   font-family: 'Hind Guntur', sans-serif;
   color:white;
-  font-size: 70px;
+  font-size: 40px;
+  margin:0 auto;
 }
 .content-center {
   text-align: center;
 }
+/*profile´s styles end*/
 
-.line {
-  height: 10px;
-  background-color: white;
+/*portafolio´s styles*/
+.portfolio-back {
+  background-color: #ffffff;
+}
+
+.text-portfolio {
+  font-family: 'Hind Guntur', sans-serif;
+  color:black;
+  font-size: 40px;
+  font-weight: bold;
+  margin:0 auto;
 }
