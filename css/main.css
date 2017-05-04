@@ -61,6 +61,8 @@ a:hover {
 /*portafolio´s styles*/
 .portfolio-back {
   background-color: #ffffff;
+  padding-top: 80px;
+  padding-bottom: 20px;
 }
 
 .text-portfolio {
@@ -69,4 +71,60 @@ a:hover {
   font-size: 40px;
   font-weight: bold;
   margin:0 auto;
+
+}
+/*section about styles*/
+.text-about {
+  font-family: 'Hind Guntur', sans-serif;
+  color:white;
+  font-size: 40px;
+  font-weight: bold;
+  margin:0 auto;
+}
+
+.about-back {
+  background-color: #0DB1FF;
+  padding-top: 80px;
+  padding-bottom: 20px;
+}
+/*section contact styles*/
+.contact-back {
+  padding-top: 80px;
+}
+.text-contact {
+  font-family: 'Hind Guntur', sans-serif;
+  color:#0DB1FF;
+  font-size: 40px;
+  font-weight: bold;
+  margin:0 auto;
+}
+
+.button-cv {
+  border: white 1px solid;
+  background-color: #0DB1FF;
+  color: white;
+  padding:8px;
+  border-radius: 10px;
+}
+
+.row-blank {
+  height: 30px;
+}
+
+.input-contact {
+  height: 40px;
+  border-bottom: 1px solid gray;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  font-family: 'Hind Guntur', sans-serif;
+  font-size: 20px;
+}
+
+#textarea-contact {
+  height: 100px;
+  border-bottom: 1px solid gray;
+  border-left: none;
+  border-right: none;
+  border-top: none;
 }
